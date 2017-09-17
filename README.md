@@ -1,4 +1,4 @@
-# specex: extensions to clojure spec
+# specx: extensions to clojure spec
 
 This repository contains extensions to Clojure spec that are useful
 primarily for validating closed maps.

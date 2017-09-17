@@ -1,7 +1,7 @@
 (ns
   ^{:copyright "Copyright 2016-2017 SixSq Sarl"
     :license   "http://www.apache.org/licenses/LICENSE-2.0"}
-  sixsq.specex.gen
+  sixsq.specx.gen
   "Utilities that provide common spec generation capabilities that aren't
    included in the core library."
   (:require

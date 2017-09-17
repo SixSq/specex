@@ -15,18 +15,18 @@
   '[codox.boot :refer [codox]])
 
 (task-options!
-  pom {:project     'sixsq/specex
+  pom {:project     'sixsq/specx
        :version     +version+
        :description "clojure spec extensions"
-       :url         "https://github.com/sixsq/specex"
+       :url         "https://github.com/sixsq/specx"
        :license     {"Apache 2.0" "http://www.apache.org/licenses/LICENSE-2.0"}
-       :scm         {:url "git@github.com:SixSq/specex.git"}}
+       :scm         {:url "git@github.com:SixSq/specx.git"}}
   push {:gpg-user-id "SixSq Release Manager <admin@sixsq.com>"}
 
   codox {:name         (str (get-env :project))
          :version      (get-env :version)
          :source-paths #{"src"}
-         ;:source-uri   "https://github.com/SixSq/specex/blob/master/{filepath}#L{line}"
+         ;:source-uri   "https://github.com/SixSq/specx/blob/master/{filepath}#L{line}"
          :language     :clojure
          :metadata     {:doc/format :markdown}})
 

@@ -1,7 +1,7 @@
 (ns
   ^{:copyright "Copyright 2016-2017 SixSq Sarl"
     :license   "http://www.apache.org/licenses/LICENSE-2.0"}
-  sixsq.specex.core
+  sixsq.specx.core
   "Utilities that provide common spec definition patterns that aren't
    supported directly by the core spec functions and macros."
   (:require
